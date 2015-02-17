@@ -23,6 +23,8 @@
 		FCC0825D1A92ED5700268C43 /* Pushbots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC0825C1A92ED5700268C43 /* Pushbots.framework */; };
 		FCC0825F1A92EE2E00268C43 /* Pushbots.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCC0825E1A92EE2E00268C43 /* Pushbots.plist */; };
 		FCC082611A92EF5700268C43 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC082601A92EF5700268C43 /* CoreLocation.framework */; };
+		FCC082631A930A0C00268C43 /* hero-icon-tweetpush.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCC082621A930A0C00268C43 /* hero-icon-tweetpush.jpg */; };
+		FCC082651A930A2700268C43 /* UAG_logotype.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCC082641A930A2700268C43 /* UAG_logotype.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		FCC0825C1A92ED5700268C43 /* Pushbots.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Pushbots.framework; sourceTree = "<group>"; };
 		FCC0825E1A92EE2E00268C43 /* Pushbots.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Pushbots.plist; sourceTree = "<group>"; };
 		FCC082601A92EF5700268C43 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FCC082621A930A0C00268C43 /* hero-icon-tweetpush.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hero-icon-tweetpush.jpg"; sourceTree = "<group>"; };
+		FCC082641A930A2700268C43 /* UAG_logotype.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UAG_logotype.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 		FCC0821E1A92E89200268C43 = {
 			isa = PBXGroup;
 			children = (
+				FCC082641A930A2700268C43 /* UAG_logotype.jpg */,
+				FCC082621A930A0C00268C43 /* hero-icon-tweetpush.jpg */,
 				FCC082601A92EF5700268C43 /* CoreLocation.framework */,
 				FCC0825C1A92ED5700268C43 /* Pushbots.framework */,
 				FCC0825A1A92ECA000268C43 /* CoreGraphics.framework */,
@@ -236,6 +242,8 @@
 			files = (
 				FCC0825F1A92EE2E00268C43 /* Pushbots.plist in Resources */,
 				FCC082361A92E89200268C43 /* Main.storyboard in Resources */,
+				FCC082651A930A2700268C43 /* UAG_logotype.jpg in Resources */,
+				FCC082631A930A0C00268C43 /* hero-icon-tweetpush.jpg in Resources */,
 				FCC0823B1A92E89200268C43 /* LaunchScreen.xib in Resources */,
 				FCC082381A92E89200268C43 /* Images.xcassets in Resources */,
 			);
@@ -379,6 +387,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Jose Manuel Samano (D75H9P4N22)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -396,6 +405,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Jose Manuel Samano (D75H9P4N22)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
